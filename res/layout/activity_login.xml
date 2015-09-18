@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/topbar"
+        style="@style/guestbtnstyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/guest_btn"
+        android:clickable="false"
+        android:text="Welcome to thangLa OneTouch Banking " />
+
+    <EditText
+        android:id="@+id/accountnumber"
+        android:layout_width="200dp"
+        android:layout_below="@+id/topbar"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:maxLength="16"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:hint="Account Number" />
+
+    
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="200dp"
+        android:layout_below="@+id/accountnumber"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:maxLength="4"
+        android:hint="PinCode"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/userloginbtn"
+        style="@style/guestbtnstyle"
+        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nth"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/guest_btn"
+        android:text="USER LOGIN" />
+
+    <TextView
+        android:id="@+id/nth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+   
+
+</RelativeLayout>

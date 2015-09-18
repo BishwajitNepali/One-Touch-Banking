@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.atmmachine.MainActivity" >
+
+    <TextView
+        android:id="@+id/lang_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="PLEASE SELECT TRANSACTION"
+        android:textColor="#ffc107"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_balance"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/lang_text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_centerHorizontal="true"
+        android:text="BALANCE INQUIRY" />
+
+    <Button
+        android:id="@+id/btn_transfer"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btn_balance"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp"
+        android:text="BALANCE TRANSFER" />
+
+    
+
+    <Button
+        android:id="@+id/btn_pin_change"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btn_transfer"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:text="PIN CHANGE" />
+    
+   
+
+</RelativeLayout>
